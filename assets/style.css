@@ -21,11 +21,10 @@ img {
     opacity: 60%;
 }
 
-i{
+.icon-def{
     font-size: 3.5rem;
     padding: 40px 50px;
 }
-
 
 .navbar{
     display: flex;
@@ -36,6 +35,11 @@ i{
     color: white;
     font-weight: 100;
     box-shadow: 0 5px 15px rgba(0,0,0,.35);
+}
+
+.html-code{
+    color:#4495FE;
+    font-weight: bold;
 }
 
 .name {
