@@ -18,9 +18,12 @@ a:hover{
 img {
     max-width: 100%;
     width: 400px;
-    opacity: 60%;
+
 }
 
+p{
+    opacity: 80%;
+}
 .icon-def{
     font-size: 3.5rem;
     padding: 40px 50px;
@@ -74,10 +77,10 @@ img {
 }
 
 .section-skills, .section-portfolio{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .skills-div{
@@ -105,3 +108,37 @@ img {
     font-weight: 100;
 }
 
+.grid-portfolio{
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    
+}
+
+.portfolio-img{
+    border-radius: 10px;
+}
+
+.portfolio-item{
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.name-grid{
+    margin: 10px;
+}
+
+.about-grid{
+    margin: 10px;
+}
+
+.btn-repositorio{
+    padding: 10px;
+    border: none;
+    background: #4495FE;
+    border-radius: 4px;
+    color: white;
+}
