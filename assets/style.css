@@ -6,6 +6,10 @@
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: #f7f7f7;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -65,6 +69,10 @@ p{
 .my-name{
     font-size: 3.5rem;
     font-weight: bold;
+    
+    background: linear-gradient(180deg, rgba(68,149,254,1) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .my-skills, .my-porfolio{
@@ -74,6 +82,9 @@ p{
 
 .subtitle{
     font-size: 2rem;
+    background: linear-gradient(180deg, rgba(68,149,254,1) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .section-skills, .section-portfolio{
@@ -117,18 +128,15 @@ p{
 }
 
 .portfolio-img{
+    margin-top: 10px;
     border-radius: 10px;
 }
 
 .portfolio-item{
-    background: #f7f7f7;
-    border-radius: 10px;
-    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
     text-align: center;
-}
-
-.name-grid{
-    margin: 10px;
 }
 
 .about-grid{
@@ -136,9 +144,10 @@ p{
 }
 
 .btn-repositorio{
-    padding: 10px;
+    padding: 15px;
     border: none;
     background: #4495FE;
     border-radius: 4px;
     color: white;
+    margin-bottom: 10px;
 }
