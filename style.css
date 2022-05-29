@@ -1,0 +1,155 @@
+:root{
+    --color-black: #0E1212;
+    --color-white: #FFFFFF;
+    --color-purple: #682AE9;
+}
+
+body{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 45px;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text-purple{
+    color: var(--color-purple);
+}
+
+.text-purple-bold{
+    color: var(--color-purple);
+    font-weight: bold;
+}
+
+.hero{
+    height: calc(100vh - 89px);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 32px;
+    margin: 100px 0;
+    margin-bottom: 50px;
+}
+
+.works-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.links-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px 0px;
+}
+
+.skills-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--color-purple);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px 0px;
+}
+
+.works-item{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-purple);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.link-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands, .fa-solid{
+    font-size: 50px;
+}
+
+
+.my-name{
+    margin-bottom: 0;
+}
+
+.work-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: auto;
+}
+
+.work-links a i{
+    font-size: 25px;
+}
+
+.link-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-item i{
+    font-size: 50px;
+    color: var(--color-purple);
+}
